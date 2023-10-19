@@ -1,0 +1,73 @@
+.heading6 {
+  background-color: #ffffff;
+  padding: 0px 10px 0px 10px;
+  max-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+body {
+  overflow: hidden;
+}
+
+.card2 {
+  width: 240px;
+  height: 450px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f9f4f0;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(7, 2, 2, 0.3);
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.Form-containera h2 {
+  margin-top: 0px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.Formy {
+  margin-left: 30px;
+}
+
+
+.words2 {
+  font-size: 22px;
+  margin-right: 140px;
+  white-space: nowrap;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.para{
+  font-size: 15px;
+  display: flex;
+  text-align: left;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.next {
+  color: white;
+  background: #00a66d;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  box-shadow: #37a37d;
+  border-radius: 40px;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  border-style: none; 
+}
+
+.button6 {
+  padding-left: 0px;
+  padding-top: 15px;
+}

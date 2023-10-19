@@ -1,0 +1,154 @@
+.heading2 {
+    background-color: #f9f4f0;
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .image2 img {
+    width: 200px;
+    height: auto;
+  }
+
+  .arrowleft {
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #979797;
+    font-size: 24px;
+  }
+  .goodmorning2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-top: 50px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 130px;
+  }
+  
+  @media (max-width: 480px) {
+    .heading2 {
+      padding-top: 80px;
+      padding-right: 20px;
+    }
+  
+    .goodmorning2 h1 {
+      font-size: 25px;
+      font-family: 'Jost', sans-serif;
+      font-family: 'Outfit', sans-serif;
+    }
+  
+  }
+  @media (max-width: 1920px) {
+    .heading2 {
+      padding-top: 80px;
+      padding-right: 20px;
+    }
+  
+    .goodmorning2 h1 {
+      font-size: 25px;
+      font-family: 'Jost', sans-serif;
+      font-family: 'Outfit', sans-serif;
+    }
+  
+  }
+   
+  .form-group2 {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .form-control2 {
+    width: 250px;
+    padding: 10px 60px 10px 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .form-control2::placeholder {
+    font-size: 10px;
+    padding: 10px 20px 10px 10px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    
+  }
+  
+  .form-control2:hover {
+    background-color: #f9f4f0;
+    box-shadow: 1px 3px 5px rgb(211, 209, 209);
+    transition: 0.2s;
+  }
+  
+  .input-icon2 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #979797;
+  }
+  
+
+  
+  .login2 {
+    color: white;
+    background: linear-gradient(45deg, #ffd506, #ffa200);
+    padding: 12px 50px 12px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgb(253, 191, 77);
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+  }
+  
+  .button2 {
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  
+  .arrow2 {
+    color: white;
+    transform: translateX(-250%);
+  }
+  
+  
+  .footer2 {
+    margin: 135px 10px 10px 10px;
+    font-size: 14px;
+    color: #9a9898;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+  }
+  
+  .signup2 {
+    color: #ffa200;
+    text-decoration: none;
+  }
+
+  .signup-link{
+    text-decoration: none;
+    color: white;
+  }
+  

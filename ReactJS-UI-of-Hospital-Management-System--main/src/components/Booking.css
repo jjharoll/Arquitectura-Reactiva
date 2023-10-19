@@ -1,0 +1,70 @@
+.heading7 {
+    background-color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    max-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  body {
+    overflow: auto;
+  }
+  
+  
+  .form-container7 {
+    width: 350px;
+    height: 75vh;
+    padding: 10px 10px 80px 10px;
+    margin: 20px;
+    background-color: #f9f4f0;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(7, 2, 2, 0.3);
+  }
+  
+  .form-container7 h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .checky{
+    display: flex ;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  
+  .login8 {
+    color: white;
+    background: #00a66d;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    box-shadow: #4e9f83;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .button8 {
+    display: flex;
+    justify-content: center;
+  }
+  .form-container7 .consent{
+    color: #00a66d;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+  }

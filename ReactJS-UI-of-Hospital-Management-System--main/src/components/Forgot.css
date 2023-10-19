@@ -1,0 +1,125 @@
+.heading4 {
+    background-color: #f9f4f0;
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .image4 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .image4 img {
+    width: 200px;
+    height: auto;
+  }
+
+  .arrowleft {
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #979797;
+    font-size: 24px;
+  }
+  .goodmorning4 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    padding-top: 60px;
+    padding-right: 100px;
+  }
+  
+  @media (max-width: 480px) {
+    .heading4 {
+      padding-top: 100px;
+      padding-right: 20px;
+    }
+  
+    .goodmorning4 h1 {
+      font-size: 25px;
+      font-family: 'Jost', sans-serif;
+      font-family: 'Outfit', sans-serif;
+    }
+    .goodmorning4 p {
+        font-size: 15px;
+        margin-top: -10px;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        color: #9a9898;
+      }
+  
+  }
+
+  .form-group4 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-control4 {
+    width: 250px;
+    padding: 15px 20px 20px 40px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .form-control4:hover {
+    background-color: #f9f4f0;
+    box-shadow: 1px 3px 5px rgb(211, 209, 209);
+    transition: 0.2s;
+  }
+  
+  .form-control4::placeholder {
+    font-size: 10px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #979797;
+  }
+
+  .login4 {
+    color: white;
+    background: linear-gradient(45deg, #ffd506, #ffa200);
+    padding: 15px 40px 15px 20px;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgb(253, 191, 77);
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .button4 {
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+  
+  .arrow4{
+    color: white;
+    transform: translateX(-220%);
+  }

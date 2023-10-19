@@ -1,0 +1,68 @@
+/* Reportes.css */
+
+/* Estilos generales del contenedor */
+.heading5 {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Estilos para la tabla */
+  .table-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos para los botones de acciones */
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Estilos para el botón "Guardar" */
+  button.save {
+    background-color: #4caf50;
+  }
+  
+  /* Estilos para el botón "Editar" */
+  button.edit {
+    background-color: #2196f3;
+  }
+  
+  /* Estilos para el botón "Eliminar" */
+  button.delete {
+    background-color: #f44336;
+  }
+  
+  /* Estilos para los botones cuando se edita una fila */
+  tr.editing button {
+    display: none;
+  }
+  
+  tr.editing button.save,
+  tr.editing button.cancel {
+    display: inline-block;
+  }
+  

@@ -1,0 +1,121 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f9f0;
+}
+
+.image {
+  margin-right: 2rem;
+}
+
+.image img {
+  width: 400px;
+  height: auto;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.goodmorning {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.goodmorning h1 {
+  font-size: 28px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.goodmorning p {
+  font-size: 16px;
+  color: #9a9898;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 60%;
+  padding: 20px 70px 10px 90px; /* Ajusta el espacio a la derecha para el icono */
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background-color: transparent;
+}
+
+.form-control:hover {
+  background-color: #f9f4f0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.form-control::placeholder {
+  font-size: 14px;
+  color: #9a9898;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #979797;
+  pointer-events: none; /* Evita que el icono sea interactivo */
+}
+
+.forgot {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #00a66d;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.login {
+  color: white;
+  background: linear-gradient(45deg, #00a66d, #01b174);
+  padding: 12px 45px 14px 30px;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+}
+
+.arrow {
+  color: white;
+  margin-left: 20px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #9a9898;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.signup {
+  color: #00a66d;
+  text-decoration: none;
+}
